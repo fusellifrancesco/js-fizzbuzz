@@ -2,6 +2,7 @@ let container = document.querySelector(".my-container");
 
 for (let numero = 1; numero <= 100; numero++ ) {
 
+
     if ((numero % 3) == 0 && (numero % 5) == 0) {
 
         container.innerHTML += '<div class="square"><p>FIZZBUZZ</p></div>';
@@ -10,12 +11,12 @@ for (let numero = 1; numero <= 100; numero++ ) {
     } else if ((numero % 5) == 0) {
 
         container.innerHTML += '<div class="square"><p>BUZZ</p></div>';
-        console.log("buzz");
+        console.log("BUZZ");
 
     } else if ((numero % 3) == 0) {
 
         container.innerHTML += '<div class="square"><p>FIZZ</p></div>';
-        console.log("fizz")
+        console.log("FIZZ");
 
     } else {
         
@@ -23,4 +24,5 @@ for (let numero = 1; numero <= 100; numero++ ) {
         console.log(numero);
 
     }
+
 }
