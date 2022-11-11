@@ -1,5 +1,35 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    margin: 30px;
+}
+
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.my-container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
